@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="MarkerSeekBar">
+        <attr name="background_color" format="color"/>
+        <attr name="seek_bar_height" format="dimension"/>
+        <attr name="marker_width" format="dimension"/>
+        <attr name="marker_text_size" format="dimension"/>
+        <attr name="marker_color" format="color"/>
+        <attr name="focus_marker_width" format="dimension"/>
+        <attr name="focus_marker_text_size" format="dimension"/>
+        <attr name="focus_marker_color" format="color"/>
+        <attr name="progress_min" format="integer"/>
+        <attr name="progress_current" format="integer"/>
+        <attr name="progress_max" format="integer"/>
+    </declare-styleable>
+
+    <declare-styleable name="Themes">
+        <attr name="markerSeekBarStyle" format="reference"/>
+    </declare-styleable>
+
+</resources>
